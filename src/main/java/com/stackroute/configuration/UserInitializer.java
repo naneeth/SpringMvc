@@ -7,7 +7,6 @@ public class UserInitializer extends AbstractAnnotationConfigDispatcherServletIn
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{UserConfiguration.class};
     }
-
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return null;
